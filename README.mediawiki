@@ -202,13 +202,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Mike Caldwell, Aaron Voisine
 | Standard
 | Draft
-|- style="background-color: #ffffcf"
+|- style="background-color: #cfffcf"
 | [[bip-0039.mediawiki|39]]
 | Applications
 | Mnemonic code for generating deterministic keys
 | Marek Palatinus, Pavol Rusnak, Aaron Voisine, Sean Bowe
 | Standard
-| Proposed
+| Final
 |-
 | 40
 | API/RPC
@@ -448,13 +448,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Pavol Rusnak
 | Standard
 | Final
-|-
+|- style="background-color: #cfffcf"
 | [[bip-0085.mediawiki|85]]
 | Applications
 | Deterministic Entropy From BIP32 Keychains
-| Ethan Kosakovsky
+| Ethan Kosakovsky, Aneesh Karve
 | Informational
-| Draft
+| Final
 |- style="background-color: #cfffcf"
 | [[bip-0086.mediawiki|86]]
 | Applications
@@ -679,13 +679,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Eric Lombrozo, William Swanson
 | Informational
 | Rejected
-|- style="background-color: #ffffcf"
+|- style="background-color: #cfffcf"
 | [[bip-0125.mediawiki|125]]
 | Applications
 | Opt-in Full Replace-by-Fee Signaling
 | David A. Harding, Peter Todd
 | Standard
-| Proposed
+| Final
 |-
 | [[bip-0126.mediawiki|126]]
 |
@@ -1110,7 +1110,7 @@ Those proposing changes should consider that ultimately consent may rest with th
 | [[bip-0345.mediawiki|345]]
 | Consensus (soft fork)
 | OP_VAULT
-| James O'Beirne, Greg Sanders, Anthony Towns
+| James O'Beirne, Greg Sanders
 | Standard
 | Draft
 |-
@@ -1118,6 +1118,20 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Consensus (soft fork)
 | OP_CAT in Tapscript
 | Ethan Heilman, Armin Sabouri
+| Standard
+| Draft
+|-
+| [[bip-0348.md|348]]
+| Consensus (soft fork)
+| CHECKSIGFROMSTACK
+| Brandon Black, Jeremy Rubin
+| Standard
+| Draft
+|-
+| [[bip-0349.md|349]]
+| Consensus (soft fork)
+| OP_INTERNALKEY
+| Brandon Black, Jeremy Rubin
 | Standard
 | Draft
 |- style="background-color: #cfffcf"
@@ -1174,6 +1188,20 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Applications
 | MuSig2 PSBT Fields
 | Ava Chow
+| Standard
+| Draft
+|-
+| [[bip-0374.mediawiki|374]]
+| Applications
+| Discrete Log Equality Proofs
+| Andrew Toth, Ruben Somsen, Sebastian Falbesoner
+| Standard
+| Draft
+|-
+| [[bip-0375.mediawiki|375]]
+| Applications
+| Sending Silent Payments with PSBTs
+| Andrew Toth, Ava Chow, josibake
 | Standard
 | Draft
 |-
